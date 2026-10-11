@@ -3,6 +3,9 @@ products:
   - id: 4lzloikpfiinsmea
     manufacturer: Palicy
     model: EC Pro 20
+  - id: 4lzloikpfiinsmea
+    manufacturer: Rinoson
+    model: RNSECNEW
 entities:
   - entity: sensor
     name: Output
@@ -78,6 +81,8 @@ entities:
         range:
           min: 20
           max: 100
+        mapping:
+          - step: 20
   - entity: sensor
     name: Salinity
     dps:
